@@ -3,32 +3,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
-
+    android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnAfegir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="276dp"
-        android:layout_marginTop="128dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/btnTlf"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="32dp"
+        android:text="Telefon"
+        app:layout_constraintBottom_toTopOf="@+id/btnMap"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="39dp"
+        android:text="MAPA"
+        app:layout_constraintBottom_toTopOf="@+id/btnMail"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        android:layout_width="185dp"
-        android:layout_height="57dp"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="149dp"
-        tools:ignore="MissingConstraints">
+    <Button
+        android:id="@+id/btnMail"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="40dp"
+        android:text="CORREU"
+        app:layout_constraintBottom_toTopOf="@+id/btnWeb"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inputThird"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="278dp"
+        android:text="WEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

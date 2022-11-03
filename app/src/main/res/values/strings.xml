@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ActivitiesExamples</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="buttonn">Button</string>
+    <string name="button4">Button</string>
+    <string name="implicit">implicit</string>
 </resources>
